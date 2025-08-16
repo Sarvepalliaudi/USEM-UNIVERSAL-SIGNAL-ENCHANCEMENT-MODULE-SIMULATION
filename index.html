@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USEM: Universal Signal Enhancement Module</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'base-dark': '#0a0a0f',
+              'base-light': '#1a1a2e',
+              'primary': '#00ffff',
+              'secondary': '#1e90ff',
+              'accent-green': '#00ff7f',
+              'accent-red': '#ff4d4d',
+            },
+            fontFamily: {
+              'sans': ['"Exo 2"', 'sans-serif'],
+            },
+            boxShadow: {
+              'glow-primary': '0 0 15px rgba(0, 255, 255, 0.6)',
+              'glow-green': '0 0 15px rgba(0, 255, 127, 0.6)',
+              'glow-red': '0 0 15px rgba(255, 77, 77, 0.6)',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.14.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "recharts": "https://esm.sh/recharts@^3.1.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.539.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-dark text-gray-200 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

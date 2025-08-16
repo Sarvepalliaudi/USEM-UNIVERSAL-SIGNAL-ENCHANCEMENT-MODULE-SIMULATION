@@ -1,0 +1,5 @@
+{
+  "name": "USEM: Universal Signal Enhancement Module",
+  "description": "A web application that simulates a signal enhancement module to increase network speed and provides AI-powered cybersecurity analysis, inspired by the USEM concept for MSMEs.",
+  "requestFramePermissions": []
+}
